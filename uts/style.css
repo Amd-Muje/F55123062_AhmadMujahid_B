@@ -1,0 +1,107 @@
+* {
+    font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0px;
+
+}
+
+img {
+    width: 500px;
+}
+
+#logo {
+    padding-left: 30px;
+}
+.navbar-cntr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-button {
+    display: flex;
+    flex-direction: row;
+    color: rgb(42, 63, 253);
+    font-size: 20px;
+    gap: 40px;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+#home {
+    background-color: blue;
+    padding: 10px 20px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(116, 173, 223);
+}
+
+.left-art {
+    flex: 2;
+    padding: 2rem;
+}
+.right-art {
+    flex: 2;
+}
+
+.get {
+    color: white;
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.wow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: aliceblue;
+}
+
+input {
+    width: 35rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.ft-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button-hero {
+    display: flex;
+    padding: 3rem;
+    gap: 2rem;
+    align-items: center;
+}
