@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-neutral-900 p-4">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-white text-lg font-bold"><img src="img.logo" alt="" width="60px"></a>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white">Home</a>
+                    <a href="#" class="text-white">About</a>
+                    <a href="#" class="text-white">Services</a>
+                    <a href="#" class="text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="relative bg-cover bg-center h-screen" style="background-image: url('img/bg.jpg')">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center text-white">
+                <h1 class="text-2xl mb-4 font-bold">Welcome to Our Website</h1>
+                <p class="text-lg"><button class="bg-transparent hover:bg-gray-200 text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent hover:text-black rounded">Learn More</button></p>
+                
+            </div>
+        </div>
+    </div>
+
+    <section class="py-16">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-center">
+                <div class="mb-6 md:mb-0 mr:mr-6">
+                    <img class="w-32 h-32 rounded-full object-cover" src="img/profile.jpg" alt="gambar teemo">
+                </div>
+                
+                <div>
+                    <h2 class="text-3xl font-semibold mb-4">About Us</h2>
+                    <p class="text-grey-600">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+                    <p class="text-grey-600 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-center mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-center">        
+                    <div class="bg-blue-500 rounded-full p-3">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" fill="currentColor" strone-linecap="round" stroke-width="2" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 3a1 1 0 00-.707.293l-7 7a1 1 0 000 1.414l7 7a1 1 0 001.414-1.414L4.414 11H17a1 1 0 000-2H4.414l4.293-4.293A1 1 0 0010 3z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    
+                    <div class="ml-4">
+                        <h3 class="text-lg font-semibold">Service 1</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-center">        
+                    <div class="bg-blue-500 rounded-full p-3">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" fill="currentColor" strone-linecap="round" stroke-width="2" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 3a1 1 0 00-.707.293l-7 7a1 1 0 000 1.414l7 7a1 1 0 001.414-1.414L4.414 11H17a1 1 0 000-2H4.414l4.293-4.293A1 1 0 0010 3z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    
+                    <div class="ml-4">
+                        <h3 class="text-lg font-semibold">Service 2</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md flex items-center">        
+                    <div class="bg-blue-500 rounded-full p-3">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" fill="currentColor" strone-linecap="round" stroke-width="2" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 3a1 1 0 00-.707.293l-7 7a1 1 0 000 1.414l7 7a1 1 0 001.414-1.414L4.414 11H17a1 1 0 000-2H4.414l4.293-4.293A1 1 0 0010 3z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    
+                    <div class="ml-4">
+                        <h3 class="text-lg font-semibold">Service 3</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6">
+        <h2 class="text-3xl font-semibold text-center mb-8">Contact Us</h2>
+            <div class="container mx-auto flex flex-col md:flex-row items-center justify-center">
+                <div class="mb-6 md:mb-0 md:mr-6 flex flex-col items-center">
+                    <h2 class="text-3xl font-semibold mb-4">Contact Information</h2>
+                    <div class="flex items-center mb-2">
+                        <svg
+                    class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"></svg>
+                        <path d="M21 10.5a8.38 8.38 0 01-1.9.5 4.48 4.48 0 001.9-2.5 8.72 8.72 0 01-2.8 1.1 4.48 4.48 0 00-7.6 4.1 12.75 12.75 0 01-9.3-4.7 4.48 4.48 0 001.4 6 4.48 4.48 0 01-2-.6v.1a4.48 4.48 0 003.6 4.4 4.48 4.48 0 01-2 .1 4.48 4.48 0 004.2 3.1 9 9 0 01-5.6 1.9 12.75 12.75 0 006.9 2"></path>
+                    </svg>
+                    <p class="text-gray-600 ml-2">info@example.com</p>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+    <footer class="bg-neutral-900 text-white py-8">
+        <div class="container mx-auto text-center">
+            <div class="flex flex-col md:flex-row justify-center items-center mb-4">
+                <svg class="w-6 h-6 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 8h18"></path>
+                </svg>
+                <p>&copy; 2023 Ahmad Mujahid</p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center items-center mb-4">
+                <svg class="w-6 h-6 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 11-8 0 4 4 0 018 0zm-4 4v6m4-6h6m-6 0H4"></path>
+                </svg>
+                <p>Email: <a href="mailto:mujehaid@gmail.com" class="text-blue-400">mujehaid@gmail.com</a></p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center items-center">
+                <svg class="w-6 h-6 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10l1.5 1.5a2 2 0 002.5 0L12 6.5l5 5 1.5-1.5a2 2 0 012.5 0L21 10m-18 8h18"></path>
+                </svg>
+                <p>Phone: <a href="tel:+628229765" class="text-blue-400">08229765**</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
